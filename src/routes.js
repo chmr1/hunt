@@ -4,4 +4,16 @@ import Main from './pages/main';
 
 export default createStackNavigator({
     Main
+}, {
+    navigationOptions: {
+        headerStyle: {
+            backgroundColor: '#DA552F'
+        },
+        headerTintColor: '#FFF',
+        headerTitleStyle: {
+            alignSelf: 'center',
+            textAlign: 'center',
+            flex: 1,
+        },
+    },
 });
